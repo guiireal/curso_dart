@@ -18,5 +18,4 @@ main() {
   print(phones['Ana']);
   print(phones.keys);
   print(phones.values);
-  print(phones.entries);
 }
