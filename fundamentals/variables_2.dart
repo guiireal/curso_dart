@@ -5,4 +5,6 @@ main() {
 
   print(text + (n1 + n2).toString());
   print(n1.runtimeType);
+  print(text is String);
+  print(n1 is int);
 }
