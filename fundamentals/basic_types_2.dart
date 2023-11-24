@@ -2,6 +2,7 @@ main() {
   var approveds = ['Ana', 'Carlos', 'Daniel', 'Rafael'];
 
   print(approveds is List);
+  approveds.add('Daniel 2');
   print(approveds);
   print(approveds.elementAt(2));
   print(approveds[0]);
@@ -21,6 +22,11 @@ main() {
   print(phones.values);
 
   var teams = {'Flamengo', 'Vasco', 'Fortaleza', 'São Paulo'};
+  teams.add('Palmeiras');
   print(teams is Set);
   print(teams);
+  print(teams.length);
+  print(teams.contains('Vasco'));
+  print(teams.first);
+  print(teams.last);
 }
