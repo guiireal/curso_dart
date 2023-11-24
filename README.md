@@ -7,3 +7,12 @@ main() {
     print('Hello world');
 }
 ```
+
+Passando argumentos para a função `main`:
+
+```dart
+main(List args) {
+  print('Hello World');
+  print(args);
+}
+```
