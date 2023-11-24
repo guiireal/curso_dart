@@ -16,6 +16,11 @@ main() {
   print(phones is Map);
   print(phones);
   print(phones['Ana']);
+  print(phones.length);
   print(phones.keys);
   print(phones.values);
+
+  var teams = {'Flamengo', 'Vasco', 'Fortaleza', 'São Paulo'};
+  print(teams is Set);
+  print(teams);
 }
