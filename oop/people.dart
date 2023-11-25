@@ -1,6 +1,6 @@
 class People {
   final String? name;
-  var age;
+  final age;
 
   People({this.name, this.age});
 
