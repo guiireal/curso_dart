@@ -30,4 +30,12 @@ class People {
   var test2 = () => print('test2');
 
   get isAdult => age! >= 18;
+
+  void set setAge(int age) {
+    this.age = age;
+  }
+
+  int get getAge => age!;
+
+  set setName(String name) => this.name = name;
 }

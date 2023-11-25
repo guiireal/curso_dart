@@ -1,4 +1,4 @@
-import 'people.dart';
+import './people.dart';
 
 main() {
   final People people = new People(name: 'John', age: 30);
@@ -11,4 +11,12 @@ main() {
   print(people2.isAdult);
   people2.test();
   people2.test2();
+
+  people2.setAge = 33;
+
+  print(people2.age);
+
+  people2.setName = 'John3';
+
+  print(people2.name);
 }
