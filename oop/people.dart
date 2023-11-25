@@ -17,5 +17,11 @@ class People {
     sayAge();
   }
 
+  var test = () {
+    print('test');
+  };
+
+  var test2 = () => print('test2');
+
   get isAdult => age! >= 18;
 }

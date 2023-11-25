@@ -9,4 +9,6 @@ main() {
 
   print(people2.name);
   print(people2.isAdult);
+  people2.test();
+  people2.test2();
 }
